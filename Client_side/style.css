@@ -1,0 +1,79 @@
+*{
+    font-size: 17;
+    color: white;
+}
+
+body{
+    max-width: 1024px;
+    max-height: 1024px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    background: #92361f;
+}
+
+
+body section{
+    width: 1000px;
+    height: 600px;
+}
+
+body .welcome{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.welcome .welcome-container{
+    margin: 100px auto;
+    gap: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.welcome .input{
+    width: 250px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 3px solid #e06a3b;
+    background: #4e220567;
+    color: white;
+}
+
+.welcome .welcome-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.welcome-button button{
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    border-radius: 13px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #6d2103;
+}
+
+.welcome-button .play{
+    background: green;
+}
+
+.welcome-button .instruction{
+    background: yellow;
+    color: #92361f;
+}
+
+.play img{
+    margin-right: 5px;
+}
+
+
+
+.welcome button:active{
+    background: #000000d5;
+}

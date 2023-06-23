@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKS PVZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Source/General/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- game welcome -->
+    <section class="welcome">
+        <div class="welcome-container">
+            <img src="Source/General/logo.png" alt="">
+            <input type="text" name="name" id="name" placeholder="username" class="input">
+            <select name="" id="" class="input">
+                <option value="">Select Level</option>
+                <option value="">Level Easy</option>
+                <option value="">Level Medium</option>
+                <option value="">Level Hard</option>
+            </select>
+            <div class="welcome-button">
+                <button class="play" onclick="play()"><img src="Source/General/Shovel.png" alt="" width="10%" class="welcome-shovel">Play Game</button>
+                <button class="instruction">Instruction</button>
+            </div>
+        </div>
+        <div class="play-instruction">
+            <p class=""></p>
+        </div>
+    </section>
+    
+    <!-- game board -->
+    <section class="game-board">
+        <canvas></canvas>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
